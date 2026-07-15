@@ -11,7 +11,7 @@ permissions:
 jobs:
   empty_commit:
     runs-on: ubuntu-latest
-    if: github.actor != 'jameshou28'
+    if: github.actor != 'techshare-project'
     steps:
       - name: Push to vercel
         uses: actions/checkout@v3
